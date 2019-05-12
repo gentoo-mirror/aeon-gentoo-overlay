@@ -1,0 +1,2 @@
+dev-cpp/json11 1.0.0: A tiny JSON library for C++11
+media-libs/rtmidi 4.0.0: RtMidi provides a common C++ API for realtime MIDI input output
