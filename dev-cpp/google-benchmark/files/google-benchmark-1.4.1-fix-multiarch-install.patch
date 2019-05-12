@@ -1,0 +1,17 @@
+diff -Naur before/src/CMakeLists.txt after/src/CMakeLists.txt
+--- before/src/CMakeLists.txt	2019-05-11 20:14:34.600008095 +0200
++++ after/src/CMakeLists.txt	2019-05-12 18:50:38.450700156 +0200
+@@ -53,10 +53,10 @@
+ target_link_libraries(benchmark_main benchmark)
+ 
+ set(include_install_dir "include")
+-set(lib_install_dir "lib/")
++set(lib_install_dir ${CMAKE_INSTALL_LIBDIR})
+ set(bin_install_dir "bin/")
+-set(config_install_dir "lib/cmake/${PROJECT_NAME}")
+-set(pkgconfig_install_dir "lib/pkgconfig")
++set(config_install_dir "${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}")
++set(pkgconfig_install_dir "${CMAKE_INSTALL_LIBDIR}/pkgconfig")
+ 
+ set(generated_dir "${CMAKE_CURRENT_BINARY_DIR}/generated")
+ 
