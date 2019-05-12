@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+cd ./dev-cpp/json11
+ebuild json11-1.0.0.ebuild manifest clean merge
+cd -
+
 cd ./media-libs/rtmidi
 ebuild rtmidi-4.0.0.ebuild manifest clean merge
 cd -
