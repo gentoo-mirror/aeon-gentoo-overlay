@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>robindegen@gmail.com</email>
+		<name>Robin Degen</name>
+	</maintainer>
+	<longdescription lang="en">
+		A microbenchmark support library by google.
+	</longdescription>
+	<upstream>
+		<remote-id type="github">google/benchmark</remote-id>
+	</upstream>
+</pkgmetadata>

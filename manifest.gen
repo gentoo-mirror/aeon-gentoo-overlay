@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+cd ./dev-cpp/google-benchmark
+ebuild google-benchmark-1.4.1.ebuild manifest clean merge
+cd -
+
 cd ./dev-cpp/json11
 ebuild json11-1.0.0.ebuild manifest clean merge
 cd -
