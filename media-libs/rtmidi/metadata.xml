@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>robindegen@gmail.com</email>
+		<name>Robin Degen</name>
+	</maintainer>
+	<longdescription lang="en">
+		A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA and JACK),
+		Macintosh OS X (CoreMIDI) and Windows (Multimedia)
+	</longdescription>
+	<upstream>
+		<remote-id type="github">thestk/rtmidi</remote-id>
+	</upstream>
+</pkgmetadata>
