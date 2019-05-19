@@ -11,7 +11,7 @@ SRC_URI="https://dl.bintray.com/aeon-engine/aeon_dependencies/json11/src/json11-
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ~x86 ~arm"
+KEYWORDS="amd64 ~x86 ~arm ~arm64"
 IUSE=""
 
 DEPEND=""
